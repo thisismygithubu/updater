@@ -16,7 +16,7 @@ $text2 = '🌤️%a🌤️
 🔸Team: %d 
 🔸 Download app(<a href=\'https://play.google.com/store/apps/details?id=com.mangasun.mangasun\'>گوگل پلی</a>)
     
-    @mangasunofficial';
+ @mangasunofficial';
 
 $text2 = str_replace("%a",$_GET['MANGA'] , $text2);
 $text2 = str_replace('%b',$_GET['FIRST'],$text2);
