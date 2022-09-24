@@ -42,7 +42,7 @@ $text2 = str_replace("%d" , $_GET['TEAM'] , $text2);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1); 
     curl_setopt($ch, CURLOPT_POSTFIELDS, $post_fields); 
     $output = curl_exec($ch);
-
+    echo 'SUCCESS';
     
 }
 
